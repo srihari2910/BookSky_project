@@ -1,0 +1,37 @@
+<html>
+ <head>
+   <link rel="stylesheet" href="booksky.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ </head>
+<body>
+<div class="one">
+      <h1>Booksky</h1>
+</div>
+<div class="container">
+  <div class="book-continer">
+    <h2>Truth About Car Race</h2>
+    <h3>loki</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aspernatur neque fugit saepe consectetur laudantium, placeat sequi tenetur! Blanditiis odit eveniet ducimus ut quos. Consequatur ducimus quas quidem placeat tempore.</p>
+    <button onclick="del(event)">Delete</button>  
+  </div>
+</div>
+<div class="overlay"></div>
+<div class="pop-up">
+  <h2>Add Book</h2>
+  <form>
+    <input type="text" id="booktitle" placeholder="booktitle"><br>
+    <input type="text" id="bookauthor" placeholder="bookauthor"><br>
+    <textarea placeholder="entertext" id="content"></textarea><br>
+    <button id="add">ADD</button>
+    <button id="cancel">CANCEL</button>
+  </form>
+</div>
+<button class="addbutton" id="add">+</button>
+
+<script src="booksky.js"></script>
+</body>
+
+
+</html>
